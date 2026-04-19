@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Music – Idol of Ash</title>
-  <meta name="description" content="Stream and read the lyrics for Idol of Ash – False Eternity EP and The Trap EP." />
+  <title>music – idol of ash</title>
+  <meta name="description" content="stream and read the lyrics for idol of ash – false eternity ep." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Grenze+Gotisch:wght@400;500;600;700;900&family=Cinzel:wght@400;600;700&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
@@ -89,29 +89,9 @@
       transform: translateY(-2px);
     }
 
-    .section-label {
-      font-family: 'Grenze Gotisch', serif;
-      font-size: 0.95rem;
-      letter-spacing: 0.3em;
-      text-transform: uppercase;
-      color: var(--purple);
-      margin-bottom: 0.6rem;
-      opacity: 0.85;
-    }
-    .section-title {
-      font-family: 'Grenze Gotisch', serif;
-      font-size: clamp(2rem, 4.5vw, 3.2rem);
-      font-weight: 700;
-      line-height: 1.2;
-      color: #fff;
-    }
-    .divider {
-      width: 60px;
-      height: 2px;
-      background: linear-gradient(90deg, var(--purple), var(--silver));
-      border-radius: 2px;
-      margin: 1.2rem 0 2rem;
-    }
+    .section-label { font-family: 'Grenze Gotisch', serif; font-size: 0.95rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--purple); margin-bottom: 0.6rem; opacity: 0.85; }
+    .section-title { font-family: 'Grenze Gotisch', serif; font-size: clamp(2rem, 4.5vw, 3.2rem); font-weight: 700; line-height: 1.2; color: #fff; }
+    .divider { width: 60px; height: 2px; background: linear-gradient(90deg, var(--purple), var(--silver)); border-radius: 2px; margin: 1.2rem 0 2rem; }
 
     /* NAV */
     #nav {
@@ -128,301 +108,57 @@
       -webkit-backdrop-filter: blur(18px);
       box-shadow: 0 1px 0 var(--border);
     }
-    .nav-logo {
-      font-family: 'UnifrakturMaguntia', serif;
-      font-size: 1.6rem;
-      color: #fff;
-      text-shadow: 0 1px 4px rgba(0,0,0,0.7);
-    }
+    .nav-logo { font-family: 'UnifrakturMaguntia', serif; font-size: 1.6rem; color: #fff; text-shadow: 0 1px 4px rgba(0,0,0,0.7); }
     .nav-logo span { color: var(--purple); }
     .nav-links { display: flex; gap: 2.2rem; list-style: none; }
-    .nav-links a {
-      font-family: 'Cinzel', serif;
-      font-size: 0.92rem;
-      letter-spacing: 0.18em;
-      text-transform: uppercase;
-      color: var(--muted);
-      transition: color 0.2s ease;
-    }
+    .nav-links a { font-family: 'Cinzel', serif; font-size: 0.92rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--muted); transition: color 0.2s ease; }
     .nav-links a:hover, .nav-links a.active { color: var(--purple); }
-    .nav-toggle {
-      display: none;
-      flex-direction: column;
-      gap: 5px;
-      cursor: pointer;
-      padding: 6px;
-    }
+    .nav-toggle { display: none; flex-direction: column; gap: 5px; cursor: pointer; padding: 6px; }
     .nav-toggle span { display: block; width: 24px; height: 2px; background: var(--purple); border-radius: 2px; }
 
     /* PAGE HERO */
-    .page-hero {
-      min-height: 46vh;
-      display: flex;
-      align-items: flex-end;
-      padding: calc(var(--nav-h) + 4rem) 6vw 4rem;
-      position: relative;
-      overflow: hidden;
-    }
-    .page-hero-bg {
-      position: absolute;
-      inset: 0;
-      background-image: url('index-background.JPG');
-      background-size: cover;
-      background-position: center 30%;
-      filter: brightness(0.2) saturate(1.3);
-    }
-    .page-hero-overlay {
-      position: absolute;
-      inset: 0;
-      background: linear-gradient(to bottom, rgba(5,5,10,0.3) 0%, rgba(5,5,10,0.92) 100%);
-    }
-    .page-hero-content {
-      position: relative;
-      z-index: 2;
-      max-width: 1100px;
-      margin: 0 auto;
-      width: 100%;
-    }
-    .page-hero-eyebrow {
-      font-family: 'Grenze Gotisch', serif;
-      font-size: 1rem;
-      letter-spacing: 0.3em;
-      text-transform: uppercase;
-      color: var(--purple);
-      margin-bottom: 1rem;
-      opacity: 0.8;
-    }
-    .page-hero-title {
-      font-family: 'UnifrakturMaguntia', serif;
-      font-size: clamp(3rem, 8vw, 6rem);
-      color: #fff;
-      text-shadow: 0 0 30px var(--glow-p), 0 0 80px rgba(168,85,247,0.2);
-      line-height: 1;
-    }
+    .page-hero { min-height: 46vh; display: flex; align-items: flex-end; padding: calc(var(--nav-h) + 4rem) 6vw 4rem; position: relative; overflow: hidden; }
+    .page-hero-bg { position: absolute; inset: 0; background-image: url('index-background.JPG'); background-size: cover; background-position: center 30%; filter: brightness(0.2) saturate(1.3); }
+    .page-hero-overlay { position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(5,5,10,0.3) 0%, rgba(5,5,10,0.92) 100%); }
+    .page-hero-content { position: relative; z-index: 2; max-width: 1100px; margin: 0 auto; width: 100%; }
+    .page-hero-eyebrow { font-family: 'Grenze Gotisch', serif; font-size: 1rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--purple); margin-bottom: 1rem; opacity: 0.8; }
+    .page-hero-title { font-family: 'UnifrakturMaguntia', serif; font-size: clamp(3rem, 8vw, 6rem); color: #fff; text-shadow: 0 0 30px var(--glow-p), 0 0 80px rgba(168,85,247,0.2); line-height: 1; }
 
     section { padding: 5rem 6vw; }
     .container { max-width: 1100px; margin: 0 auto; }
 
-    /* ===== EP HEADER ===== */
-    .ep-header {
-      display: grid;
-      grid-template-columns: 280px 1fr;
-      gap: 3.5rem;
-      align-items: center;
-      margin-bottom: 3.5rem;
-    }
+    /* EP HEADER */
+    .ep-header { display: grid; grid-template-columns: 280px 1fr; gap: 3.5rem; align-items: center; margin-bottom: 3.5rem; }
 
-    .ep-cover img {
-      width: 100%;
-      border-radius: 4px;
-      box-shadow:
-        0 0 60px rgba(168,85,247,0.3),
-        0 20px 50px rgba(0,0,0,0.6);
-    }
+    .ep-cover img { width: 100%; border-radius: 4px; box-shadow: 0 0 60px rgba(168,85,247,0.3), 0 20px 50px rgba(0,0,0,0.6); }
 
-    .ep-meta .ep-tag {
-      display: inline-block;
-      padding: 0.3rem 0.9rem;
-      border: 1px solid rgba(197,188,212,0.3);
-      border-radius: 2px;
-      font-family: 'Grenze Gotisch', serif;
-      font-size: 0.65rem;
-      letter-spacing: 0.25em;
-      color: var(--silver);
-      text-transform: uppercase;
-      margin-bottom: 1rem;
-    }
+    .ep-meta .ep-tag { display: inline-block; padding: 0.3rem 0.9rem; border: 1px solid rgba(197,188,212,0.3); border-radius: 2px; font-family: 'Grenze Gotisch', serif; font-size: 0.65rem; letter-spacing: 0.25em; color: var(--silver); text-transform: uppercase; margin-bottom: 1rem; }
 
-    .ep-title {
-      font-family: 'UnifrakturMaguntia', serif;
-      font-size: clamp(2rem, 5vw, 3.2rem);
-      color: #fff;
-      line-height: 1;
-      margin-bottom: 0.8rem;
-      text-shadow: 0 0 24px var(--glow-p);
-    }
-
-    .ep-date {
-      font-family: 'Grenze Gotisch', serif;
-      font-size: 0.8rem;
-      letter-spacing: 0.2em;
-      color: var(--silver);
-      margin-bottom: 1rem;
-    }
-
-    .ep-desc {
-      color: var(--muted);
-      font-size: 1.02rem;
-      font-weight: 300;
-      line-height: 1.85;
-      margin-bottom: 1.8rem;
-    }
-
+    .ep-title { font-family: 'UnifrakturMaguntia', serif; font-size: clamp(2rem, 5vw, 3.2rem); color: #fff; line-height: 1; margin-bottom: 0.8rem; text-shadow: 0 0 24px var(--glow-p); }
+    .ep-date { font-family: 'Grenze Gotisch', serif; font-size: 0.8rem; letter-spacing: 0.2em; color: var(--silver); margin-bottom: 1rem; }
+    .ep-desc { color: var(--muted); font-size: 1.02rem; font-weight: 300; line-height: 1.85; margin-bottom: 1.8rem; }
     .ep-actions { display: flex; gap: 0.8rem; flex-wrap: wrap; }
 
-    /* ===== TRACK ACCORDIONS ===== */
-    .tracks-section {
-      border-top: 1px solid var(--border);
-    }
-
-    .track-item {
-      border-bottom: 1px solid var(--border);
-      overflow: hidden;
-    }
-
-    .track-header {
-      display: flex;
-      align-items: center;
-      gap: 1.2rem;
-      padding: 1.2rem 0;
-      cursor: pointer;
-      user-select: none;
-      transition: color 0.2s ease;
-    }
+    /* TRACK ACCORDIONS */
+    .tracks-section { border-top: 1px solid var(--border); }
+    .track-item { border-bottom: 1px solid var(--border); overflow: hidden; }
+    .track-header { display: flex; align-items: center; gap: 1.2rem; padding: 1.2rem 0; cursor: pointer; user-select: none; transition: color 0.2s ease; }
     .track-header:hover { color: var(--purple); }
+    .track-num-lg { font-family: 'Grenze Gotisch', serif; font-size: 0.75rem; color: var(--purple); opacity: 0.6; min-width: 1.8rem; }
+    .track-abbr-lg { font-family: 'UnifrakturMaguntia', serif; font-size: 1.3rem; color: #fff; text-shadow: 0 0 12px rgba(168,85,247,0.3); }
+    .track-full-name { font-family: 'Grenze Gotisch', serif; font-size: 0.78rem; letter-spacing: 0.15em; color: var(--silver); opacity: 0.7; }
+    .track-toggle { margin-left: auto; width: 28px; height: 28px; border: 1px solid var(--border); border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; transition: all 0.25s ease; color: var(--purple); font-size: 1rem; }
+    .track-item.open .track-toggle { background: rgba(168,85,247,0.1); border-color: var(--purple); transform: rotate(45deg); }
+    .track-body { max-height: 0; overflow: hidden; transition: max-height 0.5s ease, padding 0.3s ease; }
+    .track-item.open .track-body { max-height: 2000px; }
 
-    .track-num-lg {
-      font-family: 'Grenze Gotisch', serif;
-      font-size: 0.75rem;
-      color: var(--purple);
-      opacity: 0.6;
-      min-width: 1.8rem;
-    }
-
-    .track-abbr-lg {
-      font-family: 'UnifrakturMaguntia', serif;
-      font-size: 1.3rem;
-      color: #fff;
-      text-shadow: 0 0 12px rgba(168,85,247,0.3);
-    }
-
-    .track-full-name {
-      font-family: 'Grenze Gotisch', serif;
-      font-size: 0.78rem;
-      letter-spacing: 0.15em;
-      color: var(--silver);
-      opacity: 0.7;
-    }
-
-    .track-toggle {
-      margin-left: auto;
-      width: 28px;
-      height: 28px;
-      border: 1px solid var(--border);
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-shrink: 0;
-      transition: all 0.25s ease;
-      color: var(--purple);
-      font-size: 1rem;
-    }
-    .track-item.open .track-toggle {
-      background: rgba(168,85,247,0.1);
-      border-color: var(--purple);
-      transform: rotate(45deg);
-    }
-
-    .track-body {
-      max-height: 0;
-      overflow: hidden;
-      transition: max-height 0.5s ease, padding 0.3s ease;
-    }
-    .track-item.open .track-body {
-      max-height: 2000px;
-    }
-
-    .lyrics-wrap {
-      padding: 0 0 2rem 3rem;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2rem;
-    }
-
+    .lyrics-wrap { padding: 0 0 2rem 3rem; display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; }
     .lyric-block { margin-bottom: 1.2rem; }
-
-    .lyric-section-label {
-      font-family: 'Grenze Gotisch', serif;
-      font-size: 0.65rem;
-      letter-spacing: 0.3em;
-      text-transform: uppercase;
-      color: var(--purple);
-      opacity: 0.7;
-      margin-bottom: 0.5rem;
-    }
-
-    .lyric-lines {
-      font-family: 'Rajdhani', sans-serif;
-      font-size: 1rem;
-      font-weight: 400;
-      color: var(--muted);
-      line-height: 1.9;
-      white-space: pre-line;
-    }
-
-    /* ===== COMING EP ===== */
-    #coming-ep {
-      background: rgba(17, 17, 31, 0.97);
-    }
-
-    .coming-ep-grid {
-      display: grid;
-      grid-template-columns: 260px 1fr;
-      gap: 4rem;
-      align-items: center;
-    }
-
-    .coming-ep-cover img {
-      width: 100%;
-      border-radius: 4px;
-      box-shadow:
-        0 0 50px rgba(168,85,247,0.2),
-        0 20px 50px rgba(0,0,0,0.5);
-      filter: brightness(0.9) saturate(1.1);
-    }
-
-    .coming-ep-tracks {
-      display: flex;
-      flex-direction: column;
-      gap: 0;
-      margin: 1.5rem 0 2rem;
-      border-top: 1px solid var(--border);
-    }
-
-    .coming-track-row {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      padding: 1rem 0;
-      border-bottom: 1px solid var(--border);
-      color: var(--muted);
-      font-size: 1rem;
-    }
-    .coming-track-row .track-num-lg { font-family: 'Grenze Gotisch', serif; font-size: 0.75rem; color: var(--purple); opacity: 0.6; min-width: 1.8rem; }
-    .coming-track-row .track-abbr-lg {
-      font-family: 'UnifrakturMaguntia', serif;
-      font-size: 1.2rem;
-      color: var(--text);
-      text-shadow: 0 0 10px rgba(168,85,247,0.25);
-    }
-    .coming-badge {
-      margin-left: auto;
-      font-family: 'Grenze Gotisch', serif;
-      font-size: 0.62rem;
-      letter-spacing: 0.2em;
-      color: var(--silver);
-      opacity: 0.5;
-      text-transform: uppercase;
-    }
+    .lyric-section-label { font-family: 'Grenze Gotisch', serif; font-size: 0.65rem; letter-spacing: 0.3em; text-transform: uppercase; color: var(--purple); opacity: 0.7; margin-bottom: 0.5rem; }
+    .lyric-lines { font-family: 'Rajdhani', sans-serif; font-size: 1rem; font-weight: 400; color: var(--muted); line-height: 1.9; white-space: pre-line; }
 
     /* FOOTER */
-    footer {
-      background: rgba(11, 11, 20, 0.99);
-      border-top: 1px solid var(--border);
-      padding: 3rem 6vw;
-      text-align: center;
-    }
+    footer { background: rgba(11, 11, 20, 0.99); border-top: 1px solid var(--border); padding: 3rem 6vw; text-align: center; }
     .footer-logo { font-family: 'UnifrakturMaguntia', serif; font-size: 2.2rem; color: #fff; text-shadow: 0 1px 4px rgba(0,0,0,0.7); margin-bottom: 0.6rem; }
     .footer-logo span { color: var(--purple); }
     .footer-tagline { font-family: 'Grenze Gotisch', serif; font-size: 0.95rem; letter-spacing: 0.25em; text-transform: uppercase; color: var(--muted); margin-bottom: 1.8rem; }
@@ -439,19 +175,10 @@
       .ep-header { grid-template-columns: 1fr; }
       .ep-cover { max-width: 260px; }
       .lyrics-wrap { grid-template-columns: 1fr; }
-      .coming-ep-grid { grid-template-columns: 1fr; }
-      .coming-ep-cover { max-width: 240px; }
     }
     @media (max-width: 768px) {
       .nav-links { display: none; }
-      .nav-links.open {
-        display: flex; flex-direction: column;
-        position: fixed; top: var(--nav-h); left: 0; right: 0;
-        background: rgba(5,5,10,0.97);
-        padding: 2rem 6vw 3rem; gap: 1.5rem;
-        border-bottom: 1px solid var(--border);
-        backdrop-filter: blur(20px); z-index: 99;
-      }
+      .nav-links.open { display: flex; flex-direction: column; position: fixed; top: var(--nav-h); left: 0; right: 0; background: rgba(5,5,10,0.97); padding: 2rem 6vw 3rem; gap: 1.5rem; border-bottom: 1px solid var(--border); backdrop-filter: blur(20px); z-index: 99; }
       .nav-links.open a { font-size: 1rem; }
       .nav-toggle { display: flex; }
       .track-toggle { display: none; }
@@ -466,10 +193,10 @@
   <nav id="nav">
     <a href="index.html" class="nav-logo">idol <span>of ash</span></a>
     <ul class="nav-links" id="navLinks">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="idolofash-about.html">About</a></li>
-      <li><a href="idolofash-music.html" class="active">Music</a></li>
-      <li><a href="idolofash-contact.html">Contact</a></li>
+      <li><a href="index.html">home</a></li>
+      <li><a href="idolofash-about.html">about</a></li>
+      <li><a href="idolofash-music.html" class="active">music</a></li>
+      <li><a href="idolofash-contact.html">contact</a></li>
     </ul>
     <div class="nav-toggle" id="navToggle"><span></span><span></span><span></span></div>
   </nav>
@@ -479,8 +206,8 @@
     <div class="page-hero-bg"></div>
     <div class="page-hero-overlay"></div>
     <div class="page-hero-content">
-      <p class="page-hero-eyebrow">Discography &amp; Lyrics</p>
-      <h1 class="page-hero-title">Music</h1>
+      <p class="page-hero-eyebrow">discography &amp; lyrics</p>
+      <h1 class="page-hero-title">music</h1>
     </div>
   </header>
 
@@ -490,21 +217,21 @@
 
       <div class="ep-header">
         <div class="ep-cover">
-          <img src="album-FE.JPG" alt="False Eternity EP – Idol of Ash" />
+          <img src="album-FE.JPG" alt="false eternity ep – idol of ash" />
         </div>
         <div class="ep-meta">
-          <span class="ep-tag">EP · Out Now</span>
+          <span class="ep-tag">ep · out now</span>
           <h2 class="ep-title">false eternity</h2>
-          <p class="ep-date">Released March 30, 2026</p>
+          <p class="ep-date">released march 30, 2026</p>
           <p class="ep-desc">
-            A dark concept trilogy that explores the deceptions that shape our reality —
+            a dark concept trilogy that explores the deceptions that shape our reality —
             from the masks we wear, to the systems we obey, to the love that refuses to let us go.
           </p>
           <div class="ep-actions">
             <a href="https://open.spotify.com/artist/4BIKb7PbTMcYkLWnQFDVEd?si=q056ljyCRuKqO9H56SMU7A"
-               target="_blank" rel="noopener" class="btn btn-primary">Stream Now</a>
+               target="_blank" rel="noopener" class="btn btn-primary">stream now</a>
             <a href="https://music.apple.com/us/artist/idol-of-ash/1890218781"
-               target="_blank" rel="noopener" class="btn btn-ghost">Apple Music</a>
+               target="_blank" rel="noopener" class="btn btn-ghost">apple music</a>
           </div>
         </div>
       </div>
@@ -517,8 +244,8 @@
           <div class="track-header" onclick="toggleTrack('track-1')">
             <span class="track-num-lg">01</span>
             <div>
-              <div class="track-abbr-lg">C.T</div>
-              <div class="track-full-name">Colors True</div>
+              <div class="track-abbr-lg">c.t</div>
+              <div class="track-full-name">colors true</div>
             </div>
             <div class="track-toggle">+</div>
           </div>
@@ -526,15 +253,15 @@
             <div class="lyrics-wrap">
               <div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Full</p>
-                  <p class="lyric-lines">We all see your colors true
-Hearts all rotted too
-We all see your colors true
-One that's gone askew
-You can't pull the wool over our eyes
-We all see your colors true
-You can't cover that face with a disguise
-We all see your colors true</p>
+                  <p class="lyric-section-label">full</p>
+                  <p class="lyric-lines">we all see your colors true
+hearts all rotted too
+we all see your colors true
+one that's gone askew
+you can't pull the wool over our eyes
+we all see your colors true
+you can't cover that face with a disguise
+we all see your colors true</p>
                 </div>
               </div>
             </div>
@@ -546,8 +273,8 @@ We all see your colors true</p>
           <div class="track-header" onclick="toggleTrack('track-2')">
             <span class="track-num-lg">02</span>
             <div>
-              <div class="track-abbr-lg">G.O.D</div>
-              <div class="track-full-name">Grand Ol' Deceiver</div>
+              <div class="track-abbr-lg">g.o.d</div>
+              <div class="track-full-name">grand ol' deceiver</div>
             </div>
             <div class="track-toggle">+</div>
           </div>
@@ -555,49 +282,49 @@ We all see your colors true</p>
             <div class="lyrics-wrap">
               <div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Verse 1</p>
-                  <p class="lyric-lines">Your morals are a mask
-Underneath lies the beast
-Charades that never last
-A soul that's long deceased</p>
+                  <p class="lyric-section-label">verse 1</p>
+                  <p class="lyric-lines">your morals are a mask
+underneath lies the beast
+charades that never last
+a soul that's long deceased</p>
                 </div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Chorus</p>
-                  <p class="lyric-lines">The Grand Ol' Deceiver
-False prophet and idol
-The fraudulent believer
-Master of denial</p>
+                  <p class="lyric-section-label">chorus</p>
+                  <p class="lyric-lines">the grand ol' deceiver
+false prophet and idol
+the fraudulent believer
+master of denial</p>
                 </div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Verse 2</p>
-                  <p class="lyric-lines">Your morals are but makeup
-The darkest version lies below
-You can't conceal it when we're closeup
-You can't hide what'll show</p>
+                  <p class="lyric-section-label">verse 2</p>
+                  <p class="lyric-lines">your morals are but makeup
+the darkest version lies below
+you can't conceal it when we're closeup
+you can't hide what'll show</p>
                 </div>
               </div>
               <div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Chorus</p>
-                  <p class="lyric-lines">The Grand Ol' Deceiver
-False prophet and idol
-The fraudulent believer
-Master of denial</p>
+                  <p class="lyric-section-label">chorus</p>
+                  <p class="lyric-lines">the grand ol' deceiver
+false prophet and idol
+the fraudulent believer
+master of denial</p>
                 </div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Outro</p>
-                  <p class="lyric-lines">We all see your colors true
-Grand Ol' Deceiver
-Hearts all rotted too
-Fraudulent believer
-We all see your colors true
-Grand Ol' Deceiver
-One that's gone askew
-Grand Ol' Deceiver
-You won't pull the wool over our eyes
-You can't cover that face with a disguise
-So now enjoy the grave you dug
-Fade to black, your time is up</p>
+                  <p class="lyric-section-label">outro</p>
+                  <p class="lyric-lines">we all see your colors true
+grand ol' deceiver
+hearts all rotted too
+fraudulent believer
+we all see your colors true
+grand ol' deceiver
+one that's gone askew
+grand ol' deceiver
+you won't pull the wool over our eyes
+you can't cover that face with a disguise
+so now enjoy the grave you dug
+fade to black, your time is up</p>
                 </div>
               </div>
             </div>
@@ -609,8 +336,8 @@ Fade to black, your time is up</p>
           <div class="track-header" onclick="toggleTrack('track-3')">
             <span class="track-num-lg">03</span>
             <div>
-              <div class="track-abbr-lg">L.I.F.E</div>
-              <div class="track-full-name">Living In False Existence</div>
+              <div class="track-abbr-lg">l.i.f.e</div>
+              <div class="track-full-name">living in false existence</div>
             </div>
             <div class="track-toggle">+</div>
           </div>
@@ -618,51 +345,51 @@ Fade to black, your time is up</p>
             <div class="lyrics-wrap">
               <div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Verse 1</p>
-                  <p class="lyric-lines">Wake, just go through the motions
-Blind, can't mend what isn't broken
-Cold, our souls have been stolen
-Dazed, we're drunk on their potion</p>
+                  <p class="lyric-section-label">verse 1</p>
+                  <p class="lyric-lines">wake, just go through the motions
+blind, can't mend what isn't broken
+cold, our souls have been stolen
+dazed, we're drunk on their potion</p>
                 </div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Chorus</p>
-                  <p class="lyric-lines">They put us on display
-Puppets with no resistance
-They pull the strings, we obey
-Living in false existence
-They drain our…. L! I! F! E!</p>
+                  <p class="lyric-section-label">chorus</p>
+                  <p class="lyric-lines">they put us on display
+puppets with no resistance
+they pull the strings, we obey
+living in false existence
+they drain our…. L! I! F! E!</p>
                 </div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Verse 2</p>
-                  <p class="lyric-lines">Fake, the sense of protection
-Follow, all in one direction
-Fear, can't take the rejection
-Death, can't risk any objection</p>
+                  <p class="lyric-section-label">verse 2</p>
+                  <p class="lyric-lines">fake, the sense of protection
+follow, all in one direction
+fear, can't take the rejection
+death, can't risk any objection</p>
                 </div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Bridge / Build</p>
-                  <p class="lyric-lines">But we won't fucking die
-We will fucking…. FIGHT</p>
+                  <p class="lyric-section-label">bridge / build</p>
+                  <p class="lyric-lines">but we won't fucking die
+we will fucking…. FIGHT</p>
                 </div>
               </div>
               <div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Verse 3</p>
-                  <p class="lyric-lines">Sick, time to end the madness
-Tired, done with all the sadness
-Cure, destroy all their cancer
-Cut, the strings of our masters</p>
+                  <p class="lyric-section-label">verse 3</p>
+                  <p class="lyric-lines">sick, time to end the madness
+tired, done with all the sadness
+cure, destroy all their cancer
+cut, the strings of our masters</p>
                 </div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Outro</p>
-                  <p class="lyric-lines">You can't put us on display
-Get ready for our resistance
-We broke free, we won't obey
-Living in false existence
-We took back our… LIFE
-We took back our… LIFE
-Now we'll end your… L! I! F! E!
-We are one, we are FREE!</p>
+                  <p class="lyric-section-label">outro</p>
+                  <p class="lyric-lines">you can't put us on display
+get ready for our resistance
+we broke free, we won't obey
+living in false existence
+we took back our… LIFE
+we took back our… LIFE
+now we'll end your… L! I! F! E!
+we are one, we are FREE!</p>
                 </div>
               </div>
             </div>
@@ -674,8 +401,8 @@ We are one, we are FREE!</p>
           <div class="track-header" onclick="toggleTrack('track-4')">
             <span class="track-num-lg">04</span>
             <div>
-              <div class="track-abbr-lg">H.E.L.L</div>
-              <div class="track-full-name">Hopeless Everlasting Love</div>
+              <div class="track-abbr-lg">h.e.l.l</div>
+              <div class="track-full-name">hopeless everlasting love</div>
             </div>
             <div class="track-toggle">+</div>
           </div>
@@ -683,65 +410,65 @@ We are one, we are FREE!</p>
             <div class="lyrics-wrap">
               <div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Verse 1</p>
-                  <p class="lyric-lines">We broke the illusion, but the mask still existed
-Thought we were free, but the torture persisted
-We won the battle, but we're losing the war
-The cruel realization — for what we really yearn for</p>
+                  <p class="lyric-section-label">verse 1</p>
+                  <p class="lyric-lines">we broke the illusion, but the mask still existed
+thought we were free, but the torture persisted
+we won the battle, but we're losing the war
+the cruel realization — for what we really yearn for</p>
                 </div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Bridge</p>
-                  <p class="lyric-lines">No matter the cost
-No matter the loss
-We get sucked back in
-By the greatest sin</p>
+                  <p class="lyric-section-label">bridge</p>
+                  <p class="lyric-lines">no matter the cost
+no matter the loss
+we get sucked back in
+by the greatest sin</p>
                 </div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Chorus</p>
-                  <p class="lyric-lines">Hopeless everlasting love
-The grandest deception of all
-Hopeless everlasting love
-The one that always makes us fall
-Hopeless everlasting love
-The beating of our heart
-Hopeless everlasting love
-We were doomed from the start</p>
+                  <p class="lyric-section-label">chorus</p>
+                  <p class="lyric-lines">hopeless everlasting love
+the grandest deception of all
+hopeless everlasting love
+the one that always makes us fall
+hopeless everlasting love
+the beating of our heart
+hopeless everlasting love
+we were doomed from the start</p>
                 </div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Verse 2</p>
-                  <p class="lyric-lines">We broke down the wall, but the fortress remains
-We cut the strings, but didn't break the chains
-Blinded by hope, passion burning like fire
-The cruel realization — left clinging to desire</p>
+                  <p class="lyric-section-label">verse 2</p>
+                  <p class="lyric-lines">we broke down the wall, but the fortress remains
+we cut the strings, but didn't break the chains
+blinded by hope, passion burning like fire
+the cruel realization — left clinging to desire</p>
                 </div>
               </div>
               <div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Verse 3</p>
-                  <p class="lyric-lines">We thought we were safe, but we didn't escape our master
-We thought we found peace, but only found disaster
-Numb to the pain, but our heart beats kept pounding
-The cruel realization — without it we're drowning</p>
+                  <p class="lyric-section-label">verse 3</p>
+                  <p class="lyric-lines">we thought we were safe, but we didn't escape our master
+we thought we found peace, but only found disaster
+numb to the pain, but our heart beats kept pounding
+the cruel realization — without it we're drowning</p>
                 </div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Final Chorus</p>
-                  <p class="lyric-lines">Hopeless everlasting love
-The grandest deception of all
-Hopeless everlasting love
-The one that always makes us fall
-Hopeless everlasting love
-The beating of our heart
-Hopeless everlasting love
-We were doomed…we were doomed from the start</p>
+                  <p class="lyric-section-label">final chorus</p>
+                  <p class="lyric-lines">hopeless everlasting love
+the grandest deception of all
+hopeless everlasting love
+the one that always makes us fall
+hopeless everlasting love
+the beating of our heart
+hopeless everlasting love
+we were doomed…we were doomed from the start</p>
                 </div>
                 <div class="lyric-block">
-                  <p class="lyric-section-label">Outro</p>
-                  <p class="lyric-lines">Hopeless… everlasting… love…
-The greatest sin…
-We cut the strings… but… it won't relent…
-Hopeless… everlasting… love…
-Doomed from the start…
-Fade to black… last beats of our heart… the trap</p>
+                  <p class="lyric-section-label">outro</p>
+                  <p class="lyric-lines">hopeless… everlasting… love…
+the greatest sin…
+we cut the strings… but… it won't relent…
+hopeless… everlasting… love…
+doomed from the start…
+fade to black… last beats of our heart…</p>
                 </div>
               </div>
             </div>
@@ -752,92 +479,28 @@ Fade to black… last beats of our heart… the trap</p>
     </div>
   </section>
 
-  <!-- THE TRAP EP -->
-  <section id="coming-ep">
-    <div class="container">
-      <p class="section-label">Coming Next</p>
-      <h2 class="section-title">The Trap</h2>
-      <div class="divider"></div>
-
-      <div class="coming-ep-grid">
-        <div class="coming-ep-cover">
-          <img src="album-TT.JPG" alt="The Trap EP – Idol of Ash" />
-        </div>
-        <div class="coming-ep-info">
-          <span class="ep-tag">EP · Release Date TBD</span>
-          <p style="color:var(--muted);font-weight:300;margin:1rem 0 1.5rem;line-height:1.85;">
-            A raw exploration into the invisible weights that hold us down. The knots we tie.
-            The nails driven deep. It comes when it feels right.
-          </p>
-
-          <div class="coming-ep-tracks">
-            <div class="coming-track-row">
-              <span class="track-num-lg">01</span>
-              <div>
-                <div class="track-abbr-lg">the knot</div>
-              </div>
-              <span class="coming-badge">Preview Only</span>
-            </div>
-            <div class="coming-track-row">
-              <span class="track-num-lg">02</span>
-              <div>
-                <div class="track-abbr-lg">the nail</div>
-              </div>
-              <span class="coming-badge">Preview Only</span>
-            </div>
-            <div class="coming-track-row" style="opacity:0.4;font-style:italic;">
-              <span class="track-num-lg">…</span>
-              <span style="font-family:'Grenze Gotisch',serif;font-size:0.75rem;letter-spacing:0.2em;color:var(--muted);">More to come</span>
-            </div>
-          </div>
-
-          <!-- the knot preview lyrics -->
-          <div style="margin-top:1.5rem;">
-            <p class="lyric-section-label">the knot — Excerpt</p>
-            <p style="color:var(--muted);font-weight:300;font-size:1rem;line-height:1.9;font-style:italic;border-left:2px solid var(--border);padding-left:1.2rem;margin-top:0.5rem;">
-              "Don't slip into the gray<br/>
-              Don't wither and decay<br/>
-              You can't be the one we forgot<br/>
-              You're worth more than the knot…"
-            </p>
-          </div>
-
-          <div style="margin-top:1.5rem;">
-            <p class="lyric-section-label">the nail — Excerpt</p>
-            <p style="color:var(--muted);font-weight:300;font-size:1rem;line-height:1.9;font-style:italic;border-left:2px solid var(--border);padding-left:1.2rem;margin-top:0.5rem;">
-              "You crawled into the depths of my heart<br/>
-              And slowly it started to soften<br/>
-              Now all that's left is death do us part<br/>
-              You're the nail in my coffin…"
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- FOOTER -->
   <footer>
     <div class="footer-logo">idol <span>of ash</span></div>
-    <p class="footer-tagline">Organic · Honest · Raw</p>
+    <p class="footer-tagline">organic · honest · raw</p>
     <ul class="footer-nav">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="idolofash-about.html">About</a></li>
-      <li><a href="idolofash-music.html">Music</a></li>
-      <li><a href="idolofash-contact.html">Contact</a></li>
+      <li><a href="index.html">home</a></li>
+      <li><a href="idolofash-about.html">about</a></li>
+      <li><a href="idolofash-music.html">music</a></li>
+      <li><a href="idolofash-contact.html">contact</a></li>
     </ul>
     <div class="footer-social">
-      <a href="https://www.facebook.com/share/1DpDskTncC/?mibextid=wwXIfr" target="_blank" rel="noopener" class="social-link" aria-label="Facebook">
+      <a href="https://www.facebook.com/share/1DpDskTncC/?mibextid=wwXIfr" target="_blank" rel="noopener" class="social-link" aria-label="facebook">
         <svg viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
       </a>
-      <a href="https://open.spotify.com/artist/4BIKb7PbTMcYkLWnQFDVEd?si=q056ljyCRuKqO9H56SMU7A" target="_blank" rel="noopener" class="social-link" aria-label="Spotify">
+      <a href="https://open.spotify.com/artist/4BIKb7PbTMcYkLWnQFDVEd?si=q056ljyCRuKqO9H56SMU7A" target="_blank" rel="noopener" class="social-link" aria-label="spotify">
         <svg viewBox="0 0 24 24"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.521 17.34c-.24.359-.66.48-1.021.24-2.82-1.74-6.36-2.101-10.561-1.141-.418.122-.779-.179-.899-.539-.12-.421.18-.78.54-.9 4.56-1.021 8.52-.6 11.64 1.32.42.18.479.659.301 1.02zm1.44-3.3c-.301.42-.841.6-1.262.3-3.239-1.98-8.159-2.58-11.939-1.38-.479.12-1.02-.12-1.14-.6-.12-.48.12-1.021.6-1.141C9.6 9.9 15 10.561 18.72 12.84c.361.181.54.78.241 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.301c-.6.179-1.2-.181-1.38-.721-.18-.601.18-1.2.72-1.381 4.26-1.26 11.28-1.02 15.721 1.621.539.3.719 1.02.419 1.56-.299.421-1.02.599-1.559.3z"/></svg>
       </a>
-      <a href="https://youtube.com/channel/UCd_QUsv1LiVmWQ7w2qah8WQ?si=clyHy-Me7GvMGuMz" target="_blank" rel="noopener" class="social-link" aria-label="YouTube">
+      <a href="https://youtube.com/channel/UCd_QUsv1LiVmWQ7w2qah8WQ?si=clyHy-Me7GvMGuMz" target="_blank" rel="noopener" class="social-link" aria-label="youtube">
         <svg viewBox="0 0 24 24"><path d="M23.495 6.205a3.007 3.007 0 00-2.088-2.088c-1.87-.501-9.396-.501-9.396-.501s-7.507-.01-9.396.501A3.007 3.007 0 00.527 6.205a31.247 31.247 0 00-.522 5.805 31.247 31.247 0 00.522 5.783 3.007 3.007 0 002.088 2.088c1.868.502 9.396.502 9.396.502s7.506 0 9.396-.502a3.007 3.007 0 002.088-2.088 31.247 31.247 0 00.5-5.783 31.247 31.247 0 00-.5-5.805zM9.609 15.601V8.408l6.264 3.602z"/></svg>
       </a>
     </div>
-    <p class="footer-copy">&copy; 2026 Idol of Ash. All rights reserved. George McClain.</p>
+    <p class="footer-copy">&copy; 2026 idol of ash. all rights reserved. george mcclain.</p>
   </footer>
 
   <script>

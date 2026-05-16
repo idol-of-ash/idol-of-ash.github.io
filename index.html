@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" href="favicon.ico?v=3" sizes="any">
+  <link rel="icon" type="image/png" href="favicon.png?v=3" sizes="32x32">
+  <link rel="apple-touch-icon" href="favicon-apple-180.png?v=3">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>idol of ash – official site</title>
   <meta name="description" content="idol of ash – dark concept music born from sleepless nights, heavy thoughts, and the need to turn inner chaos into sound. stream false eternity now." />
@@ -694,6 +697,7 @@
       .nav-toggle { display: flex; }
       .release-grid,
       .about-strip-inner { grid-template-columns: 1fr; gap: 2.5rem; }
+      #coming .coming-inner > div[style*="grid-template-columns"] { grid-template-columns: 1fr !important; }
     }
   </style>
 </head>
@@ -822,7 +826,17 @@
       <p class="section-label">what's next</p>
       <h2 class="section-title">something heavy is coming...</h2>
       <div class="divider" style="margin-inline: auto;"></div>
-      <img src="single-TK.jpg" alt="something heavy is coming – idol of ash" class="coming-teaser-img" />
+
+      <div style="max-width: 520px; margin: 2rem auto 0;">
+        <img src="single-TK.jpg" alt="the knot – idol of ash" class="coming-teaser-img" />
+        <div style="margin-top: 2rem;">
+          <p style="font-family: 'Rajdhani', sans-serif; font-size: 0.85rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--silver); text-align: center; margin-bottom: 0.8rem;">breaking news</p>
+          <video controls preload="metadata" style="width: 100%; border-radius: 4px; border: 1px solid rgba(168,85,247,0.18); background: #000;">
+            <source src="BreakingNews.SomethingHeavy.MP4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+
     </div>
   </section>
 
